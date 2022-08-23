@@ -3,6 +3,7 @@ function viv(){
     Firstnum = parseInt(document.getElementById("one").value);
     secondnum= parseInt(document.getElementById("two").value);
     document.getElementById("result").innerHTML=Firstnum * secondnum;
+    document.getElementById("resultinput").value = Firstnum * secondnum;
    
 }
 function div(){
